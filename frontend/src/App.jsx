@@ -6,8 +6,8 @@ function App() {
     () => [
       {
         id: 'shop',
-        title: 'Shop',
-        subtitle: '商品を探す',
+        title: 'Discovery',
+        subtitle: '見つける',
         items: [
           { label: 'New Arrivals', sublabel: '新着商品' },
           { label: 'Best Sellers', sublabel: '人気商品' },
@@ -18,8 +18,8 @@ function App() {
       },
       {
         id: 'categories',
-        title: 'Categories',
-        subtitle: 'カテゴリー',
+        title: 'Shop by Category',
+        subtitle: 'カテゴリーから探す',
         items: [
           { label: 'Women', sublabel: 'レディース' },
           { label: 'Men', sublabel: 'メンズ' },
