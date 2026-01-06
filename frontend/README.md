@@ -11,6 +11,16 @@ npm run dev
 
 기본 주소는 `http://localhost:5174`입니다. (포트는 `vite.config.js`에서 변경 가능)
 
+## GitHub Pages 배포
+
+루트 `docs/`에 빌드 결과를 생성하도록 설정되어 있습니다.
+
+```bash
+npm run build
+```
+
+이후 GitHub Pages의 소스를 `main` 브랜치의 `/docs`로 지정하면 됩니다.
+
 ## 주요 기능
 
 - 상위 카테고리 클릭 시 하위 카테고리 펼침/접힘
